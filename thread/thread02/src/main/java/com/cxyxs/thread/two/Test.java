@@ -45,7 +45,6 @@ public class Test {
         try {
             Integer sum =  result.get();
             System.out.println("计算结果:"+sum);
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
