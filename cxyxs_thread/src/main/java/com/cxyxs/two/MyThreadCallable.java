@@ -21,6 +21,7 @@ public class MyThreadCallable implements Callable<Integer> {
                 e.printStackTrace();
             }
             sum+=i;
+
             System.out.println("小王通过实现Callable接口的方式实现:" + new Date());
         }
         return sum;
